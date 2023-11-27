@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Курсы по SaaS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Главная</a></li>
+                <li><a href="#courses">Курсы</a></li>
+                <li><a href="#about">О нас</a></li>
+                <li><a href="#contact">Контакты</a></li>
+                <li><a href="#cart">Корзина</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="home" class="tab-content active">
+            <h1>Добро пожаловать на сайт курсов по SaaS</h1>
+            <p>Наша компания предлагает лучшие курсы по SaaS в городе Баку и предоставляет возможность изучить все тонкости разработки программного обеспечения как для начинающих, так и для опытных специалистов.</p>
+        </div>
+
+        <div id="courses" class="tab-content">
+            <h2>Наши курсы по SaaS</h2>
+            <div class="course">
+                <img src="course-image.jpg" alt="Курс по SaaS">
+                <div class="course-info">
+                    <h3>Самый лучший курс по SaaS</h3>
+                    <p class="description">Изучите все секреты разработки SaaS-продуктов в городе Баку. Наши эксперты помогут вам стать профессионалом в этой области.</p>
+                    <p class="price">Цена: 99 манат</p>
+                    <button class="buy-button" onclick="addToCart()">Добавить в корзину</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="about" class="tab-content">
+            <h2>О нас</h2>
+            <p>Мы являемся лидерами в индустрии обучения по SaaS в Баку. Наш опыт и профессионализм гарантируют нашим студентам качественное обучение.</p>
+        </div>
+
+        <div id="contact" class="tab-content">
+            <h2>Контакты</h2>
+            <p>Свяжитесь с нами для получения дополнительной информации о курсах:</p>
+            <p>Телефон: +994556693169</p>
+            <p>Email: info@saaaaaaaaaas.com</p>
+            <p>Адрес: ул. New Balynin, 6931, Corat</p>
+        </div>
+
+        <div id="cart" class="tab-content">
+            <h2>Корзина</h2>
+            <ul id="cart-items">
+                <!-- Сюда будут добавляться товары -->
+            </ul>
+            <p id="total-price">Итого: 0 манат</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 SaaS Ayaz 680R</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
